@@ -1,0 +1,57 @@
+cProfile.run('erat(10)')
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+       20    0.000    0.000    0.000    0.000 task2_1.py:16(<listcomp>)
+        1    0.000    0.000    0.000    0.000 task2_1.py:3(erat)
+       20    0.000    0.000    0.000    0.000 task2_1.py:8(<listcomp>)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.exec}
+       21    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+
+cProfile.run('erat(20)')
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.001    0.001 <string>:1(<module>)
+       52    0.000    0.000    0.000    0.000 task2_1.py:16(<listcomp>)
+        1    0.001    0.001    0.001    0.001 task2_1.py:3(erat)
+       52    0.000    0.000    0.000    0.000 task2_1.py:8(<listcomp>)
+        1    0.000    0.000    0.001    0.001 {built-in method builtins.exec}
+       53    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+
+cProfile.run('erat(30)')
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.002    0.002 <string>:1(<module>)
+       84    0.000    0.000    0.000    0.000 task2_1.py:16(<listcomp>)
+        1    0.001    0.001    0.002    0.002 task2_1.py:3(erat)
+       84    0.000    0.000    0.000    0.000 task2_1.py:8(<listcomp>)
+        1    0.000    0.000    0.002    0.002 {built-in method builtins.exec}
+       85    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+
+cProfile.run('erat(40)')
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.005    0.005 <string>:1(<module>)
+      134    0.001    0.000    0.001    0.000 task2_1.py:16(<listcomp>)
+        1    0.004    0.004    0.005    0.005 task2_1.py:3(erat)
+      134    0.001    0.000    0.001    0.000 task2_1.py:8(<listcomp>)
+        1    0.000    0.000    0.005    0.005 {built-in method builtins.exec}
+      135    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+
+cProfile.run('erat(50)')
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.013    0.013 <string>:1(<module>)
+      180    0.002    0.000    0.002    0.000 task2_1.py:16(<listcomp>)
+        1    0.009    0.009    0.013    0.013 task2_1.py:3(erat)
+      180    0.001    0.000    0.001    0.000 task2_1.py:8(<listcomp>)
+        1    0.000    0.000    0.013    0.013 {built-in method builtins.exec}
+      181    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
